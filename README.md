@@ -80,12 +80,9 @@ cd nlw-agents
 ```bash
 # Suba o banco de dados com Docker
 docker-compose up -d
-
-# Configure as variáveis de ambiente
-touch .env
 ```
 
-Exemplo de `.env`:
+Crie um arquivo `.env` e coloque as variaveis de ambiente lá, exemplo:
 
 ```env
 PORT=3333
