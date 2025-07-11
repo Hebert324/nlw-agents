@@ -75,9 +75,29 @@ git clone https://github.com/Hebert324/nlw-agents
 cd nlw-agents
 ```
 
+#### FrontEnd
+
+```bash
+# Volte para a pasta nlw-agents
+
+# Acesse a pasta do frontend (web)
+cd web
+
+# Instale as dependências
+npm install
+
+# Inicie o sistema
+npm run dev
+
+# Antes de acessar 'http://localhost:5173' para ver a informações, configure o back-end ↓↓↓
+```
+
 #### Backend
 
 ```bash
+# Acesse a pasta do backend (server)
+cd server
+
 # Suba o banco de dados com Docker
 docker-compose up -d
 ```
@@ -101,6 +121,8 @@ npm run db:seed
 
 # Inicie o servidor de desenvolvimento
 npm run dev
+
+# Feito isso acesse o 'http://localhost:5173'
 ```
 
 #### Produção:
@@ -113,7 +135,7 @@ npm start
 
 ## 📚 Scripts Disponíveis
 
-* `npm run dev` – Inicia o servidor em modo desenvolvimento com hot reload
+* `npm run dev` – Inicia o servidor em modo desenvolvimento com hot reload e inicia front-end
 * `npm start` – Executa o projeto em modo produção
 * `npm run db:seed` – Popula o banco com dados de exemplo
 
