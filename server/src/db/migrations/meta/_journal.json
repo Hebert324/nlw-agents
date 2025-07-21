@@ -15,6 +15,13 @@
       "when": 1752280537877,
       "tag": "0001_worried_felicia_hardy",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1753119104926,
+      "tag": "0002_steady_firebrand",
+      "breakpoints": true
     }
   ]
 }

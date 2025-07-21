@@ -36,9 +36,9 @@ GET {{baseUrl}}/rooms/{{roomId}}/questions
 
 # Create question
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/578dda44-54cf-4247-9b4e-1b2201829b40/questions
 Content-Type: application/json
 
 {
-    "question": "Qual o conceito de x dentro de Y?"
+    "question": "O que é vue.js e qual a diferença entre o angular.js?"
 }
